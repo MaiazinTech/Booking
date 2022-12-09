@@ -144,7 +144,6 @@ header {
 }
 
 #form-filter-content {
-    
     border: 2px solid #febb02;
     background-color: #febb02;
     border-radius: 5px;
@@ -163,7 +162,7 @@ header {
     align-items: center;
     border: none;
      
-} 
+ }  
 
  #work-option{
     margin-top: 15px; 
@@ -215,12 +214,10 @@ header {
 
 .offers {
     margin-top: 2rem;
-
 }
 
 .offers > p {
     color-scheme: #6b6b6b ;
-
 }
 
 .offers-list {
@@ -237,16 +234,16 @@ header {
     border-radius: 10px;
     padding: 1rem;
     margin-right: 2rem;
+    height: 10rem;
 }
 
 .offers-banner h4, p {
-    width: 45%;
+    width: 60%;
     margin-bottom: 10px;
 }
 
 .offers-banner button, .app-banner button {
     background-color: #0071c2;
-
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 3px;
@@ -254,11 +251,39 @@ header {
     border: none;
 }
 
-.offers-banner button a, .app-banner button {
+.offers-banner button a, .app-banner a {
     text-decoration: none;
     color: white;
 }
 
 .img-app {
     width: 150px;
+}
+
+.app-banner {
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.16);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 50%;
+}
+
+.app-banner p{
+    margin: .5rem 0; /* .5rem é igual a 0.5rem */
+    width: 70%;
+}
+
+.destinations{
+    margin-top: 2rem;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list img {
+    width: 80%;
 }
