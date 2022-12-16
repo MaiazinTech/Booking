@@ -502,3 +502,34 @@ footer > div:nth-child(2){
 footer > div > a {
     color: #6b6b6b;
 }
+
+
+@media (max-width: 600px) { /* executa quando largura maxima da tela for ate 600px*/
+    #form-filter-content {
+        flex-direction: column;
+        min-height: 250px;
+    }
+
+    .offers-list {
+        display: block;
+    }
+
+    .offers-banner {
+        width: 100%;
+    }
+
+    .app-banner {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .offers > p {
+        width: 100%;
+    }
+
+    .app-banner p {
+        width: 100%;
+    }
+    
+
+}
